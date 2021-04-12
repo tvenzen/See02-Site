@@ -1,0 +1,95 @@
+@font-face {
+  font-family: lemon-milk;
+  src: url("../fonts/lemonmilk.otf");
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: lemon-milk;
+  background-image: url("../images/background-blur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header {
+  font-size: 40px;
+  color: #00b300;
+  text-align: center;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 3px 2px 3px black;
+  margin: 50px 0px 40px 0px;
+}
+
+a {
+ font-size: 20px;
+ text-decoration: none; 
+ text-align: right;
+ padding: 0px 12px;
+}
+
+#navi {
+  color: #00b300;
+  text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+  background-color: white;
+  margin: 0px 0px;
+  padding: 7px;
+}
+
+h1 span{
+  padding: 0px 10px;
+  margin: 0 10px;
+  text-align: left;
+}
+
+h2 {
+	font-size:44px;
+}
+
+p {
+	font-size: 24px;
+	margin: 0 20px;
+	text-indent: 50px;
+}
+
+a:link{
+ color: green;
+ }
+ 
+a:visited{
+  color: green;
+}
+
+a:hover {
+  cursor: pointer;
+  color: lightgreen;
+}
+
+#top-sep {
+  border: 5px solid green;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  margin-top: 0px;
+}
+
+.center {
+	text-align: center;
+	color: #009900;
+	text-shadow: 2px 1px 2px black;
+}
+
+footer {
+	text-align: center;
+	margin-top: 160px;
+	color: #00b300;
+	text-shadow: 2px 1px 2px black;
+}

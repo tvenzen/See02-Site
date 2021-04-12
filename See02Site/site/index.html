@@ -1,0 +1,43 @@
+<html> 
+  <head>
+    <title>Home Page - SeeO2</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="homepage.js"></script>
+  </head>
+  
+  <body>
+    <div id = "navi">
+      <h1><span>SeeO2</span> <a href = "index.html">Home</a> <a href = "about/index.html">About</a> <a href = "resources/index.html">Resources</a></h1>
+    </div>
+
+	<hr id = "top-sep">
+
+	<div id="content">
+		<div id = "header" class = "section">
+			<div class="left">
+				REDUCE
+				<p id="first-line" class="indented-text">YOUR
+				<p id="second-line" class="indented-text">CARBON
+				<p id="third-line" class="indented-text">FOOTPRINT
+			</div>
+		</div>
+		<div id = "calc">
+		<form>
+			<label for="distance">Enter the distance you drive each year, in miles [avg 12,000/yr]: </label>
+			<br>
+			<input type="number" id="distance">
+			<p>
+			<label for="mpg">Enter the mileage of your car, in miles per gallon, or MPG [avg 25 MPG]: </label>
+			<br>
+			<input type="number" id="mpg">
+			<br>
+		</form>
+		<button id="calculate" type="button">Submit</button>
+		</div>
+	</div>
+	<footer>Created by Tyler Venzen, Erik O'Hara, and Christian Puleio</footer>
+  </body>
+
+</html>
+
